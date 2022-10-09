@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Service In India | MealOnline.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar*/
+#navbar{
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+#navbar::before{
+content: "";
+background-color: rgba(0, 0, 0, 0.901);
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+
+}
+/*logo and img*/
+
+ #logo img{
+    margin: 3px 6px;
+ }
+
+ ul{
+    display: flex;
+ }
+ li{
+    color:aliceblue;
+    list-style-type:none;
+    font-size: 1.3rem;
+ }
+ #navbar ul li a{
+    color:white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+ }
+ #navbar ul li a:hover{
+    color:green;
+    display: block;
+    background-color: white;
+    padding: 3px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ #home{
+   display: flex;
+   flex-direction: column;
+   padding: 3px 200px;
+   height: 400px;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+ }
+ #home::before{
+   content: "";
+background: url('../images/bg.jfif') no-repeat center center/cover;
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.80;
+ }
+
+ #home h1{
+   color: white;
+   text-align: center;
+   font-family: Bree serif;
+ }
+ #home p{
+   color: white;
+   text-align: center;
+   font-size: 1.5rem;
+   font-family: Bree serif;
+ }
+ /*services section*/
+ #services-container{
+  border: 5px solid red;
+  font-family: Bree serif;
+  border-radius: 20px;
+  margin-top: 5px;
+  
+ }
+ #services{
+   margin: 34px;
+   display: flex;
+ }
+ 
+ #services .box img{
+   height: 150px;
+   margin-top: 0px;
+   float:right;
+
+ }
+ .box p{
+  font-size: 19px;
+ }
+
+ /*about us*/
+#about-us{
+  margin-top: 5px;
+  border: 5px solid green;
+  border-radius: 20px;
+  
+}
+.heading{
+  font-size: 2.8rem;
+}
+#box1 img{
+  height: 150px;
+  float: left;
+}
+#box1 p{
+  font-size: 19px;
+}
+.about{
+  margin: 34px;
+   display: flex;
+  }
+
+  /*contact us*/
+  #contact-container{
+  border: 5px solid red;
+  font-family: Bree serif;
+  border-radius: 20px;
+  margin-top: 5px;
+  }
+.box2 img{
+  float:right;
+  height: 200px;
+}
+.box2 p{
+  font-size: 19px;
+}
+ /*utility class*/
+
+ .primary{
+font-size: 2.8rem;
+padding:12px;
+ }
+ .secondary{
+   font-size: 1.8rem;
+   padding:12px;
+    }
+
+ .btn{
+   color:white;
+   padding: 6px 20px;
+   border:2px solid white;
+   background-color: green;
+   margin:17px;
+   font-size: 1.5rem;
+   border-radius: 15px;
+   cursor: pointer;
+}
+</style>
+
+<body>
+  <nav id="navbar">
+    <div id="logo">
+      <img src="images/logo.png" alt="EatFirst.com" height="100">
+    </div>
+
+<ul>
+  <li class="item"><a href="#home">Home</a></li>
+  <li class="item"><a href="#services-container">Services</a></li>
+  <li class="item"><a href="#about-us">About Us</a></li>
+  <li class="item"><a href="#contact-container">Contact Us</a></li>
+</ul>
+
+  </nav>
+
+  <section id="home">
+  <h1 class="primary">Welcome to my EatFirst.com</h1>
+  <p>
+    Get fresh home delivered food at your doorstep from <span style="color:green"><b>EatFirst</b></span>. Order food online from 
+    <span style="color:green"><b>EatFirst</b></span>. 
+    Choose from a wide range of cuisines and categories for food delivery.
+  </p>
+  <button class="btn">Order Food</button>
+  </section>
+  
+  <section id="services-container">
+    <h1 class="primary">Our Services</h1>
+    <div id="services">
+      <div class="box">
+        <img src="images/img1.png" alt="some">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, modi alias voluptatibus laboriosam architecto necessitatibus debitis facere commodi nihil odit perspiciatis nostrum dolore saepe corrupti ratione ut voluptate, et voluptatem rem libero, a consequatur eum! Itaque, earum veniam corrupti, molestias repellendus architecto nam, dolorum nisi sed possimus adipisci? Id nobis eveniet placeat libero quasi! Modi recusandae repudiandae at ex dignissimos incidunt, molestias cupiditate distinctio veritatis aspernatur cum repellat, veniam commodi?
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-us">
+    <h1 class="heading">About Us</h1>
+    <div class="about">
+    <div id="box1">
+      <img src="images/shakes.png">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit saepe maxime vitae ipsam necessitatibus quas laborum magnam autem quis? Ad exercitationem quo cumque enim, eveniet aliquam. At beatae qui similique omnis accusantium sapiente error sunt eligendi quo veritatis libero ut inventore explicabo impedit molestias distinctio dolore odio dolorum neque soluta est labore, eum eius et. Reprehenderit, aliquam impedit? Tempore error odit nulla voluptas dolor molestias cumque natus quos similique, blanditiis aliquid earum ea provident maxime deserunt est! Nam, natus modi.</p>
+    </div>
+  </div>
+  </section>
+
+  <section id="contact-container">
+    <h1 class="primary">Contact </h1>
+    <div id="services">
+      <div class="box2">
+        <img src="images/contact.png" alt="some" >
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, modi alias voluptatibus laboriosam architecto necessitatibus debitis facere commodi nihil odit perspiciatis nostrum dolore saepe corrupti ratione ut voluptate, et voluptatem rem libero, a consequatur eum! Itaque, earum veniam corrupti, molestias repellendus architecto nam, dolorum nisi sed possimus adipisci? Id nobis eveniet placeat libero quasi! Modi recusandae repudiandae at ex dignissimos incidunt, molestias cupiditate distinctio veritatis aspernatur cum repellat, veniam commodi?
+        </p>
+      </div>
+    </div>
+  </section>
+
+   </body>
+<script src="script.js">
+</script>
+</html>
